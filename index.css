@@ -1,0 +1,48 @@
+html {
+    font-family: Helvetica;
+}
+
+.header {
+    background-image: url('/resources/PANDEMIC-WEB-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    height: 50%;
+    min-height: 25vw;
+    z-index: 1; 
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #303030;
+    justify-content: center;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.flexbox-left {
+    flex: 2 2 10%;
+}
+.flexbox-center {
+    flex: 1 1 80%;
+}
+.flexbox-right {
+    flex: 2 2 10%;
+}
