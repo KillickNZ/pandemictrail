@@ -29,6 +29,10 @@ a {
     text-decoration: none;
     font-weight: bold;
 }
+#Hashtag {
+    font-weight: 600;
+
+}
 
 .flexbox-container {
     display: flex;
